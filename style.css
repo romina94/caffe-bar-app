@@ -1,0 +1,67 @@
+html {
+  height: 100%;
+}
+html body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(coffee-machine.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  display: flex;
+  height: 100%;
+}
+html body .coffee-logo {
+  display: block;
+  width: 40%;
+  margin: auto;
+}
+html body form {
+  max-width: 400px;
+  background-color: rgba(141, 122, 122, 0.8);
+  border-radius: 25px;
+  margin: auto;
+}
+html body form .container {
+  padding: 0 30px 30px;
+}
+html body form .container input[type=text],
+html body form .container input[type=password] {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 1px solid rgb(50, 50, 50);
+  box-sizing: border-box;
+  color: rgb(50, 50, 50);
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  padding: 10px 0;
+  margin: 5px 0;
+  width: 100%;
+}
+html body form .container input[type=text]:focus-visible,
+html body form .container input[type=password]:focus-visible {
+  outline: none;
+}
+html body form .container input[type=text]::-moz-placeholder, html body form .container input[type=password]::-moz-placeholder {
+  color: #555;
+}
+html body form .container input[type=text]::placeholder,
+html body form .container input[type=password]::placeholder {
+  color: #555;
+}
+html body form .container button {
+  color: rgb(204, 138, 97);
+  background-color: rgb(50, 50, 50);
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  padding: 15px;
+  margin-top: 25px;
+  width: 100%;
+}
+html body form .container button:hover {
+  opacity: 0.8;
+}/*# sourceMappingURL=style.css.map */
